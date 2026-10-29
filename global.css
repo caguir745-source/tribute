@@ -11,10 +11,9 @@ body {
     background-color: whitesmoke;
     color: black;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
-
 }
 my-button:active{
     transform: translateY(2px);
@@ -125,7 +124,7 @@ th, td {
     background-color: whitesmoke;
     color: black;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 a {
     
@@ -174,6 +173,11 @@ img{
     border: 3px solid gray;
     border-radius: 20px;
 
+}
+.la-nav{
+    background-color: gray;
+    padding:5px ;
+    
 }
 /* end of about page */
 
@@ -236,10 +240,10 @@ img{
 .image {
     width: 100%;
     height: 460px;
-    border: 1px solid rgb(132, 0, 0);
+    border: 1px solid rgb(254, 249, 249);
     border-radius: 20px;
     border-width: 5px;
-    opacity: 0.9;                 
+    opacity: 0.6;                 
     transition: transform 0.6s ease, box-shadow 0.6s ease;
     
 }
@@ -256,9 +260,4 @@ height: 300px;
 
 border-radius: 40000px;
 box-shadow: 5px 20px 200px rgba(253, 0, 0, 0.597);
-/* transition: transform 0.3s ease, box-shadow 0.6s ease; */
 }
-/* #circled-logo:hover,
-#circled-logo:focus{
-    box-shadow: 5px 20px 200px rgba(253, 0, 0, 0.597);
-} */
